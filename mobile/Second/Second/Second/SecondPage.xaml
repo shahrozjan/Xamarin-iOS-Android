@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Second.SecondPage" BackgroundColor="#3071CF" NavigationPage.HasBackButton="False" NavigationPage.HasNavigationBar="False">
+   
+
+    
+    <StackLayout>
+    <Image x:Name="ImgLogo2" WidthRequest="84" HeightRequest="75" TranslationX="0" TranslationY="110"/>
+    <Image x:Name="ImgLogo1" WidthRequest="297" HeightRequest="75" TranslationX="0" TranslationY="110"/>
+        
+    <Button Text="Log in" TextTransform="None" TextColor="White" BackgroundColor="Transparent" BorderColor="White" BorderWidth="1" CornerRadius="15" Clicked ="NavigateButton_OnClicked" TranslationY="300"
+           HorizontalOptions="Center" WidthRequest="284" />
+    <Label Text="Version: 1.16" TextTransform="None" VerticalOptions="End" TextColor ="White" HorizontalOptions="Center" TranslationY="550"></Label>
+    </StackLayout>
+
+</ContentPage>
+
