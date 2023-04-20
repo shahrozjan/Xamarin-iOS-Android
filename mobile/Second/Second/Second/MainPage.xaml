@@ -20,6 +20,8 @@
             </Label.FormattedText>
 
         </Label>
+        
+    <Button Text="Second Page" BackgroundColor="Aquamarine" Clicked="NavigateButton_OnClicked"/>  
         <Button Text="Click Me" Clicked="Button_Clicked" />
     </StackLayout>
 
