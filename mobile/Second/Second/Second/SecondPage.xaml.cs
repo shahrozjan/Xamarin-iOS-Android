@@ -10,8 +10,8 @@ namespace Second
 		public SecondPage ()
 		{
 			InitializeComponent ();
-            ImgLogo1.Source = ImageSource.FromFile("Logo1");
-            ImgLogo2.Source = ImageSource.FromFile("Logo2");
+            //ImgLogo1.Source = ImageSource.FromFile("Logo1");
+            //ImgLogo2.Source = ImageSource.FromFile("Logo2");
             NavigationPage.SetHasBackButton(this, false);
             //Title = "Login";
 
